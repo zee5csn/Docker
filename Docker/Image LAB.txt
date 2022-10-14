@@ -1,0 +1,20 @@
+     Images LAB
+command for the image
+1# docker images (check docker images)
+2# docker rmi 2a697363a870 (remove image using image I'd)
+3# docker image prune -a (this will remove all images)
+4#docker search ubuntu (this will search all ubuntu images like official.custom)
+5#docker pull ubuntu (pulling from library/ubuntu)
+6#docker images 
+7#docker save -o myubuntu.iso ubuntu (save image in locally)
+8#docker load -i myubuntu.iso(load image from locally saved image)
+
+command for the container
+8#docker run -it ubuntu bash (container run interactive mode access with the bash shell)
+9# docker ps -a (check all container)
+10# docker start 4e020eafde25 (container start using container i'd or container name)
+11# docker run -d centos bash (container run detattach mode without accessable running in background)
+12#docker exec -it reverent_zhukovsky bash (access container usnig container name)
+13#docker stop 6a14a10d9930 (container to stop using container id)
+14#docker container prune (this will remove all stopped containers)
+15#

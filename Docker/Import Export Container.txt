@@ -1,0 +1,8 @@
+export conatiner two methods
+1 # docker export conatiner-name >  mybackup.tar
+2 # docker export -o='mybacup'.tar' container-name
+
+import container
+# docker import mybackup.tar backup:v1
+# docker images 
+# docker run -it --name ubuntu backup:v1 bash 

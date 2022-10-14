@@ -1,0 +1,3 @@
+iptables v1.6.0: can't initialize iptables -F: Permission denied (you must be root)
+
+$ docker exec -it --privileged container-name bash

@@ -1,0 +1,16 @@
+
+#docker exec -it apache2 bash
+#apt update 
+#apt install ssh
+#nano /etc/ssh/sshd_config
+i) port 22     uncomment
+ii) PermitRootLogin yes uncomment
+iii)PasswordAuthentication yes uncomment
+iv) X11Forwarding yes uncomment
+
+set password for ssh 
+#paaswd root
+#service ssh restart
+#
+#
+#

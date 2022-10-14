@@ -1,0 +1,14 @@
+# docker network inspect bridge
+# docker network create mynetwork   (there is no driver mention then by default create bridge network)
+# docker network ls 
+# docker network inspect mynetwork
+
+connect container mynetwork bridge
+# docker network connect mynetwork conatiner-name
+# docker network inspect bridge
+
+if direct communicate docker0 host machine without any port open access directly 
+#docker run -it --network host ubuntu bash
+
+if delete all created network for use this command
+#docker network prune

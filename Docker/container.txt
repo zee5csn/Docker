@@ -1,0 +1,20 @@
+1#docker run --name zishancontainer -it ubuntu:18.10 bash
+2#docker ps -a
+3#docker start zishancontainer
+4#docker ps -a
+5#docker run --name zishancontainer123 --restart always -it ubuntu:18.10 bash (always running container) 
+6#docker stats zishancontainer (container stats)
+7#docker stats (all containers stats)
+8#docker attach zishancontainer
+9#docker attach zishancontainer123
+10#top 
+11#exit
+12#docker top zishancontainer (container running process)
+13#docker container help
+14#docker container inspect zishancontainer (container detail information)
+15#docker container inspect zishancontainer "IPAddress" (container ip information)
+16#docker stop zishancontainer123
+17#docker rm zishancontainer zishancontainer123 (multiple container remove using rm command multiple name)
+18#
+19#
+20#

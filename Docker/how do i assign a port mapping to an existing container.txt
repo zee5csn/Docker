@@ -1,0 +1,8 @@
+Below are some steps which you can follow:
+First, stop the running container
+
+#docker stop container_id
+Commit the container
+#docker commit container_id container_id2 
+Container_id2 is a new image which is made from container_id2 container.Try to re-run from the commited image
+#docker run -p 8080:8080 -it container_id2 bash
